@@ -1,5 +1,5 @@
 <section class="pos row">
-  <div class="cart-container col-sm-5">
+  <div class="cart-container col-sm-4">
     <div class="pos-cart">
       <div class="customer-field">
       </div>
@@ -56,7 +56,7 @@
     </div>
   </div>
 
-  <div class="item-container col-sm-7">
+  <div class="item-container col-sm-6">
     <div class="list-item-table pos-items-wrapper">
       <div class="pos-items image-view-container">
         <p v-if="noItems()">No Items available.</p>
@@ -83,6 +83,9 @@
         <!------- END ITEM -------->
 
       </div>
+    </div>
+     <div class="item-container col-sm-2">
+       {{ __("All Item Groups") }}
     </div>
   </div>
 </section>
